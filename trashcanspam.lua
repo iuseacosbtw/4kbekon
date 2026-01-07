@@ -2,6 +2,7 @@ local KEYBIND=Enum.KeyCode.C
 local ESP=true
 
 /* PLEASE READ BEFORE USING
+	This script quickly charges up your ultimate and gets you kills by repeatedly throwing trash cans at players.
 	You can toggle between teleporting and not teleporting using the keybind above.
 	You can also change the keybind if you want.
 	
@@ -12,8 +13,10 @@ local ESP=true
 	To disable ESP (seeing what moves players have equipped), set ESP above to false. This does not disable the red highlight.
 	That's pretty much it, the rest is just extra info and suggestions.
 
-	I recommend using an autoclicker so that you can leave it running and get you kills.
+	I recommend using an autoclicker so that you can leave it running and have the script get you kills.
 	This script automatically avoids teleporting to people with one-shot counters (they are highlighted in red).
+	When you teleport, this script compensates for lag and movement, and also attempts to attack two players at once.
+	This script is designed only to work in The Strongest Battlegrounds. It hasn't been tested in any other games.
 
 	This script was made by "axes (@BHY94)"
 */
