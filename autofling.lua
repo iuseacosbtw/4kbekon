@@ -1,6 +1,6 @@
 local KEYBIND=Enum.KeyCode.C
 
-/* PLEASE READ BEFORE USING
+--[[ PLEASE READ BEFORE USING
 	This script flings every player in the server for as long as you want.
 	You can toggle between flinging and not flinging using the keybind above.
 	You can also change the keybind if you want.
@@ -14,7 +14,7 @@ local KEYBIND=Enum.KeyCode.C
   This script works in any game where player collisions exist.
   
   This script was made by "axes (@BHY94)"
-*/
+]]
 
 local player=game.Players.LocalPlayer
 local character=player.Character or player.CharacterAdded:Wait()
